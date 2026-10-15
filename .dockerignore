@@ -1,0 +1,46 @@
+# Local database (SQLite)
+data.db
+data.db-*
+*.sqlite
+*.sqlite3
+
+# Environment / secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Version control and editor config
+.git/
+.gitignore
+.vscode/
+.idea/
+.editorconfig
+
+# Docs and tooling not needed to build the image
+postman/
+README.md
+Makefile
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Caché and Python tools
+**/__pycache__
+**/*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# OS / logs
+**/*.tmp
+**/*.log
+**/*.swp
+**/*.swo
+**/*~
+.DS_Store
+Thumbs.db
+
+# build artefacts
+dist/
